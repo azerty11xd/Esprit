@@ -30,6 +30,11 @@
 	<packaging>war</packaging>
 	<name>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</name>
 	<description>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</description>
+<scm>
+		<connection>scm:git:https://github.com/azerty11xd/Esprit.git</connection>
+		<developerConnection>scm:git:https://github.com/azerty11xd/Esprit.git</developerConnection>
+		<url>https://github.com/azerty11xd/Esprit.git</url>
+	</scm>
 
 	<properties>
 		<java.version>1.8</java.version>
