@@ -61,6 +61,7 @@ pipeline {
 						}    
                         }   
 	}
+    }
     post { 
         success {
                 emailext (
@@ -95,5 +96,4 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '10'))
         timeout(time: 25, unit: 'MINUTES')
     }
-}
 }
