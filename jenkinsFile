@@ -96,8 +96,4 @@ pipeline {
         timeout(time: 25, unit: 'MINUTES')
     }
 }
-def getVersion() {
-      def pom = readMavenPom file: './pom.xml'
-      print pom.version
-      return pom.version
 }
