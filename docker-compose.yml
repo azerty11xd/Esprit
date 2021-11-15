@@ -21,7 +21,7 @@ services:
     networks:
       mini_project:    
     volumes:
-      - my-db: C:/Users/malek/Desktop/mysql
+      - my-db: /var/lib/mysql
   applicationService:
     build: C:/Users/malek/.jenkins/jobs/Esprit/workspace
     image: myapp
