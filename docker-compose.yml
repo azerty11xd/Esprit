@@ -36,4 +36,4 @@ networks:
   mini_project:
     driver: bridge
 volumes:
-  my-db:C:/Users/malek/Desktop/mysql
+  my-db: C:/Users/malek/Desktop/mysql
