@@ -20,8 +20,8 @@ services:
       # Where our data will be persisted
     networks:
       mini_project:    
-    volumes:
-      - my-db:/var/lib/mysql
+   # volumes:
+    #  - my-db:/var/lib/mysql
   applicationService:
     build: C:/Users/malek/.jenkins/jobs/Esprit/workspace
     image: myapp
@@ -35,5 +35,5 @@ services:
 networks:
   mini_project:
     driver: bridge
-volumes:
-  my-db: C:/Users/malek/Desktop/mysql
+#volumes:
+ # my-db: C:/Users/malek/Desktop/mysql
